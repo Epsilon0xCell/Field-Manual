@@ -20,3 +20,5 @@ The field manuals I use at work, as a shopping and reference list. These are phy
 - The ShadowSecuritySuite manual, downloaded and printed.
 
 ![Manual](Manual.png)
+
+One thing I should say about that photo, since it sits right under the ShadowSecuritySuite line: it is not that manual, and it is not any book on this list. It shows a TrenchMaster Model R450H and R450HA ReDefiner parts list, open at pages 15 and 16.
