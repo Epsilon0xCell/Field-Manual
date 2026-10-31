@@ -4,16 +4,16 @@ The field manuals I use at work, as a shopping and reference list. These are phy
 
 ## Security field manuals
 
-- LFM: Linux Field Manual, by Tim Bryant - https://www.amazon.com/dp/1736526723
-- PTFM: Purple Team Field Manual - https://www.amazon.com/dp/B08LJV1QCD
-- BTFM: Blue Team Field Manual - https://www.amazon.com/dp/154101636X
-- RTFM: Red Team Field Manual - https://www.amazon.com/dp/1494295504
-- RTRM: Red Team Reference Manual - https://www.amazon.com/dp/B08N37KDPQ
+- [LFM: Linux Field Manual, by Tim Bryant](https://www.amazon.com/dp/1736526723)
+- [PTFM: Purple Team Field Manual](https://www.amazon.com/dp/B08LJV1QCD)
+- [BTFM: Blue Team Field Manual](https://www.amazon.com/dp/154101636X)
+- [RTFM: Red Team Field Manual](https://www.amazon.com/dp/1494295504)
+- [RTRM: Red Team Reference Manual](https://www.amazon.com/dp/B08N37KDPQ)
 
 ## Desk references
 
-- Webster's portable dictionary, Second Edition - https://www.amazon.com/dp/0764564919
-- Webster's All-in-One Dictionary and Thesaurus - https://www.amazon.com/dp/1596951478
+- [Webster's portable dictionary, Second Edition](https://www.amazon.com/dp/0764564919)
+- [Webster's All-in-One Dictionary and Thesaurus](https://www.amazon.com/dp/1596951478)
 
 ## Also on the shelf
 
