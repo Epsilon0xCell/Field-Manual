@@ -6,52 +6,32 @@
 <title>Field Manual: what it is, how it runs, where it stops</title>
 <meta name="description" content="The field manuals I use at work, as a shopping and reference list. These are physical books, not downloads; each link goes to the book&#x27;s Amazon produc">
 <style>
-:root {
-  --bg: #0a120e; --panel: #101c16; --ink: #e6f0e2;
-  --mut: #15251d;
-  --acc: #a8e05c; --acc2: #f0be54;
-  --line: #101c16;
-}
-* { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink);
-  font-family: Charter, Georgia, serif; line-height: 1.55; }
-code, pre, .mono { font-family: 'DejaVu Sans Mono', monospace; }
-a { color: var(--acc2); }
-.hero { padding: 3rem 6vw 1rem; }
-.hero img.banner { width: 100%; height: auto; border: 1px solid var(--line);
-  border-radius: 10px; }
-.logo { width: 92px; height: 92px; border-radius: 18px;
-  border: 1px solid var(--line); }
-h1 { font-size: 2.4rem; margin: 0.4em 0 0.1em; }
-h2 { border-bottom: 2px solid var(--acc); padding-bottom: 0.2em;
-  margin-top: 2em; }
-.lede { font-size: 1.15rem; max-width: 62ch; }
-main { padding: 0 6vw 3rem; max-width: 1180px; margin: 0 auto; }
-.grid { display: grid; gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
-.card { background: var(--panel); border: 1px solid var(--line);
-  border-radius: 12px; padding: 1rem 1.2rem; }
-.card.pop { animation: rise 0.7s ease both; }
-@keyframes rise { from { opacity: 0; transform: translateY(14px); }
-  to { opacity: 1; transform: none; } }
-pre.code { background: #101014; color: #e8e6df; padding: 1rem 1.2rem;
-  border-radius: 12px; overflow-x: auto; font-size: 0.86rem;
-  border-left: 5px solid var(--acc); }
-table { border-collapse: collapse; width: 100%; }
-td, th { border-bottom: 1px solid var(--line); padding: 0.45rem 0.6rem;
-  text-align: left; }
-.shots { display: grid; gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-.shots img { width: 100%; height: auto; border: 1px solid var(--line);
-  border-radius: 10px; background: #f4f1e8; }
-footer { padding: 2rem 6vw; border-top: 1px solid var(--line);
-  color: var(--mut); }
-.rail { display: flex; gap: 1.2rem; align-items: flex-start; }
-.rail nav { position: sticky; top: 1rem; min-width: 180px; }
-@media (max-width: 760px) { .rail { flex-direction: column; }
-  .rail nav { position: static; } }
-@media (prefers-reduced-motion: reduce) {
-  .card.pop { animation: none; } * { scroll-behavior: auto; } }
+@font-face{font-family:'Architects Daughter';src:url('fonts/ArchitectsDaughter-Regular.ttf') format('truetype')}
+@font-face{font-family:'Barlow';src:url('fonts/Barlow-Regular.ttf') format('truetype')}
+@font-face{font-family:'Barlow';src:url('fonts/Barlow-SemiBold.ttf') format('truetype');font-weight:600}
+:root{--bg:#241a10;--panel:#aeb8b4;--ink:#f2ead8;--dark:#221a12;--amber:#f0a832;--line:#6b5a3e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Barlow',sans-serif;line-height:1.6}
+code,pre,.mono{font-family:'DejaVu Sans Mono',monospace}a{color:var(--amber)}
+a:hover{color:#ffd27a}.hero{padding:3rem 6vw 1rem;max-width:1180px;margin:0 auto}
+.hero img.banner{width:100%;height:auto;border:3px solid #6b5a3e;border-radius:14px}
+.logo{width:92px;height:92px;border-radius:50%;border:3px solid #8a7a5c}
+h1,h2,h3{font-family:'Architects Daughter',cursive;color:#f7efdb}
+h1{font-size:2.6rem;margin:.4em 0 .1em}h2{border-bottom:2px dotted var(--amber);padding-bottom:.2em;margin-top:2em}
+.lede{font-size:1.15rem;max-width:62ch}main{padding:0 6vw 3rem;max-width:1180px;margin:0 auto}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--panel);color:var(--dark);border:2px solid #7d7268;border-radius:18px 22px 16px 24px;padding:1rem 1.2rem}
+.card h3{color:var(--dark)}
+pre.code{background:#14100c;color:#e8e6df;padding:1rem 1.2rem;border-radius:12px;overflow-x:auto;font-size:.86rem;border-left:5px solid var(--amber)}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid var(--line);padding:.45rem .6rem;text-align:left}
+.shots{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.shots img{width:100%;height:auto;border:2px solid #7d7268;border-radius:10px;background:#f4f1e8}
+footer{padding:2rem 6vw;border-top:2px dotted var(--amber);color:#cbbfa5}
+.rail{display:flex;gap:1.4rem;align-items:flex-start}
+.rail nav{position:sticky;top:1rem;min-width:180px;border-left:4px dotted var(--amber);padding-left:1rem}
+button,.btn{background:linear-gradient(180deg,#7a5a30,#5e421f);color:#fff;border:2px solid #2c2114;border-radius:20px;padding:.5rem 1.1rem;cursor:pointer}
+button:hover{box-shadow:0 0 0 3px rgba(240,168,50,.45)}
+button:active{transform:rotate(2deg)}
+@media(max-width:760px){.rail{flex-direction:column}.rail nav{position:static}}
 </style>
 </head>
 <body class="layout-rail">
