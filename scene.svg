@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260">
+<rect width="800" height="260" fill="#3a2a18"/>
+<rect y="0" width="800" height="34" fill="#d8b87e"/>
+<g fill="#e2cc9e"><ellipse cx="90" cy="34" rx="55" ry="16"/><ellipse cx="250" cy="34" rx="55" ry="16"/><ellipse cx="410" cy="34" rx="55" ry="16"/><ellipse cx="570" cy="34" rx="55" ry="16"/><ellipse cx="720" cy="34" rx="55" ry="16">
+<animate attributeName="cy" values="34;32;34" dur="5s" repeatCount="indefinite"/></ellipse></g>
+<g fill="#1c130c"><ellipse cx="90" cy="28" rx="10" ry="7"/><ellipse cx="250" cy="28" rx="10" ry="7"/><ellipse cx="410" cy="28" rx="10" ry="7"/><ellipse cx="570" cy="28" rx="10" ry="7"/><ellipse cx="720" cy="28" rx="10" ry="7"/></g>
+<rect y="118" width="800" height="72" fill="#17100a"/>
+<line x1="0" y1="172" x2="800" y2="172" stroke="#5aa8c8" stroke-width="4" stroke-dasharray="14 10">
+<animate attributeName="stroke-dashoffset" from="0" to="-96" dur="4s" repeatCount="indefinite"/></line>
+<circle cx="150" cy="150" r="7" fill="#ffb840"><animate attributeName="opacity" values="1;.35;1" dur="2.6s" repeatCount="indefinite"/></circle>
+<circle cx="330" cy="150" r="7" fill="#ffb840"><animate attributeName="opacity" values=".4;1;.4" dur="3.9s" repeatCount="indefinite"/></circle>
+<g><rect x="430" y="160" width="34" height="24" fill="#8a6136"/><animateTransform attributeName="transform" type="translate" values="0 0;26 0;0 0" dur="9s" repeatCount="indefinite"/></g>
+<rect x="652" y="34" width="36" height="140" fill="#e8d9a8" opacity=".35"/>
+<g><polygon points="652,96 688,96 682,132 658,132" fill="#6e4a28"/><line x1="658" y1="106" x2="682" y2="106" stroke="#222" stroke-width="3"/><circle cx="662" cy="140" r="3" fill="#9fd4ee"><animate attributeName="cy" values="140;168" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="678" cy="140" r="3" fill="#9fd4ee"><animate attributeName="cy" values="140;168" dur="1.6s" begin=".5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.6s" begin=".5s" repeatCount="indefinite"/></circle>
+<animateTransform attributeName="transform" type="translate" values="0 18;0 -14;0 18" dur="7s" repeatCount="indefinite"/></g>
+<g><rect x="630" y="52" width="80" height="10" fill="#7a5228"><animateTransform attributeName="transform" type="rotate" values="-3 670 57;3 670 57;-3 670 57" dur="7s" repeatCount="indefinite"/></rect></g>
+</svg>
