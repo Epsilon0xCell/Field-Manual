@@ -1,9 +1,11 @@
-![Intro](intro-banner.png)
+![Intro: the satchel packed and closed with the corner of one manual peeking out, drawn from above on sepia paper in umber ink, one indigo wash for the strap shadow, a red pencil tick beside it](intro-banner.png)
 
 # Field-Manual
 
+<p align="center"><img src="logo.png" alt="Field-Manual logo: a stack of three chunky pocket manuals drawn in umber ink on aged sepia paper, the top book open with a faded red pencil laid across it" width="200"></p>
+
 The field manuals I use at work, as a shopping and reference list. These are physical books, not downloads; each link goes to the book's Amazon product page.
-![Banner](banner.png)
+![Banner: a field desk drawn in umber ink on aged sepia paper, five upright pocket manuals in a row like a small skyline, a compass, a pencil and a canvas satchel beside them, faded red underlines beneath the books](banner.png)
 
 ![Scene](scene.svg)
 

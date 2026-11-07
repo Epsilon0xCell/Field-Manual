@@ -6,31 +6,32 @@
 <title>Field Manual: what it is, how it runs, where it stops</title>
 <meta name="description" content="The field manuals I use at work, as a shopping and reference list. These are physical books, not downloads; each link goes to the book&#x27;s Amazon produc">
 <style>
-@font-face{font-family:'Architects Daughter';src:url('fonts/ArchitectsDaughter-Regular.ttf') format('truetype')}
-@font-face{font-family:'Barlow';src:url('fonts/Barlow-Regular.ttf') format('truetype')}
-@font-face{font-family:'Barlow';src:url('fonts/Barlow-SemiBold.ttf') format('truetype');font-weight:600}
-:root{--bg:#241a10;--panel:#aeb8b4;--ink:#f2ead8;--dark:#221a12;--amber:#f0a832;--line:#6b5a3e}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Barlow',sans-serif;line-height:1.6}
-code,pre,.mono{font-family:'DejaVu Sans Mono',monospace}a{color:var(--amber)}
-a:hover{color:#ffd27a}.hero{padding:3rem 6vw 1rem;max-width:1180px;margin:0 auto}
-.hero img.banner{width:100%;height:auto;border:3px solid #6b5a3e;border-radius:14px}
-.logo{width:92px;height:92px;border-radius:50%;border:3px solid #8a7a5c}
-h1,h2,h3{font-family:'Architects Daughter',cursive;color:#f7efdb}
-h1{font-size:2.6rem;margin:.4em 0 .1em}h2{border-bottom:2px dotted var(--amber);padding-bottom:.2em;margin-top:2em}
-.lede{font-size:1.15rem;max-width:62ch}main{padding:0 6vw 3rem;max-width:1180px;margin:0 auto}
+@font-face{font-family:'IM Fell English';src:url('fonts/IMFellEnglish-Regular.ttf') format('truetype')}
+@font-face{font-family:'EB Garamond';src:url('fonts/EBGaramond-Regular.ttf') format('truetype');font-weight:400}
+@font-face{font-family:'EB Garamond';src:url('fonts/EBGaramond-Medium.ttf') format('truetype');font-weight:500}
+@font-face{font-family:'EB Garamond';src:url('fonts/EBGaramond-Bold.ttf') format('truetype');font-weight:700}
+:root{--bg:#2b1d10;--panel:#f0e5cb;--ink:#f2ead8;--dark:#33241a;--red:#c05a3c;--indigo:#5a6d94;--line:#8a7a5c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'EB Garamond',Georgia,serif;font-size:1.08rem;line-height:1.6}
+code,pre,.mono{font-family:'DejaVu Sans Mono',monospace}a{color:#e8b48a}
+a:hover{color:var(--red)}.hero{padding:3rem 6vw 1rem;max-width:1180px;margin:0 auto}
+.hero img.banner{width:100%;height:auto;border:3px solid var(--line);border-radius:4px;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.logo{width:92px;height:92px;border-radius:50%;border:3px solid var(--line)}
+h1,h2,h3{font-family:'IM Fell English',serif;font-weight:400;color:#f7efdb}
+h1{font-size:2.9rem;margin:.4em 0 .1em}h2{border-bottom:2px solid var(--red);padding-bottom:.2em;margin-top:2em}
+.lede{font-size:1.25rem;max-width:62ch}main{padding:0 6vw 3rem;max-width:1180px;margin:0 auto}
 .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
-.card{background:var(--panel);color:var(--dark);border:2px solid #7d7268;border-radius:18px 22px 16px 24px;padding:1rem 1.2rem}
+.card{background:var(--panel);color:var(--dark);border:1px solid #b8a888;border-radius:3px;padding:1rem 1.2rem;box-shadow:3px 4px 0 rgba(0,0,0,.35)}
 .card h3{color:var(--dark)}
-pre.code{background:#14100c;color:#e8e6df;padding:1rem 1.2rem;border-radius:12px;overflow-x:auto;font-size:.86rem;border-left:5px solid var(--amber)}
+pre.code{background:#1d1409;color:#e8e6df;padding:1rem 1.2rem;border-radius:3px;overflow-x:auto;font-size:.86rem;border-left:5px solid var(--red)}
 table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid var(--line);padding:.45rem .6rem;text-align:left}
 .shots{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-.shots img{width:100%;height:auto;border:2px solid #7d7268;border-radius:10px;background:#f4f1e8}
-footer{padding:2rem 6vw;border-top:2px dotted var(--amber);color:#cbbfa5}
+.shots img{width:100%;height:auto;border:2px solid #7d7268;border-radius:3px;background:#f4f1e8}
+footer{padding:2rem 6vw;border-top:2px solid var(--red);color:#cbbfa5}
 .rail{display:flex;gap:1.4rem;align-items:flex-start}
-.rail nav{position:sticky;top:1rem;min-width:180px;border-left:4px dotted var(--amber);padding-left:1rem}
-button,.btn{background:linear-gradient(180deg,#7a5a30,#5e421f);color:#fff;border:2px solid #2c2114;border-radius:20px;padding:.5rem 1.1rem;cursor:pointer}
-button:hover{box-shadow:0 0 0 3px rgba(240,168,50,.45)}
-button:active{transform:rotate(2deg)}
+.rail nav{position:sticky;top:1rem;min-width:180px;border-left:4px solid var(--indigo);padding-left:1rem}
+button,.btn{background:var(--panel);color:var(--dark);border:2px solid #2c2114;border-radius:3px;padding:.5rem 1.1rem;cursor:pointer;font-family:'IM Fell English',serif;box-shadow:2px 2px 0 rgba(0,0,0,.4)}
+button:hover{box-shadow:0 0 0 3px rgba(192,90,60,.5)}
+button:active{transform:translate(1px,1px)}
 @media(max-width:760px){.rail{flex-direction:column}.rail nav{position:static}}
 </style>
 </head>
@@ -44,8 +45,8 @@ button:active{transform:rotate(2deg)}
      thing I will not do here is oversell: what this project does
      not do is stated on the page, not hidden from it. -->
 <header class="hero">
-  <img class="logo" src="assets/logo.png" alt="Field Manual logo">
-  <img class="banner" src="assets/banner.png" alt="">
+  <img class="logo" src="assets/logo.png" alt="Field Manual logo: a stack of three chunky pocket manuals in umber ink on aged sepia paper, the top book open with a faded red pencil laid across it">
+  <img class="banner" src="assets/banner.png" alt="A field desk drawn in umber ink on aged sepia paper: five upright pocket manuals in a row like a small skyline, a compass, a pencil and a canvas satchel beside them">
   <h1>Field Manual</h1>
   <p class="mono"><a href="https://github.com/Epsilon0xCell/Field-Manual">github.com/Epsilon0xCell/Field-Manual</a></p>
 </header>
