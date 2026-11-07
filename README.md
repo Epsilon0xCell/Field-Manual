@@ -7,7 +7,7 @@
 The field manuals I use at work, as a shopping and reference list. These are physical books, not downloads; each link goes to the book's Amazon product page.
 ![Banner: a field desk drawn in umber ink on aged sepia paper, five upright pocket manuals in a row like a small skyline, a compass, a pencil and a canvas satchel beside them, faded red underlines beneath the books](banner.png)
 
-![Scene](scene.svg)
+![Scene: an animated sepia scene panel from the field desk theme, lamp discs over a dark bench with a dashed sight line](scene.svg)
 
 ![Separator](sep-heavy.svg)
 
